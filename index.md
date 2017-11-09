@@ -1,10 +1,10 @@
 # Table of contents
 
 * [About Munchie Zone](#about-munchiezone)
-* [Installation] (#installation)
+* [Installation](#installation)
 * [Development history](#development-history)
   * [Milestone 1: Mockup development](#milestone-1-mockup-development)
-* [Contact us] (#contact)
+* [Contact Us](#contact-us)
 
 
 # About Munchie Zone
@@ -34,6 +34,6 @@ This Milestone occurred on November 2, 2017. In it, we created mockups of variou
 
 ![](images/bowfolios-cas.png)
 
-# Contact us
+# Contact Us
 
 The developers of Munchie Zone can be contacted via DM on Slack.
