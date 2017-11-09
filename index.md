@@ -32,6 +32,8 @@ This Milestone occurred on November 2, 2017. In it, we created mockups of variou
 
 ![Alt text](https://github.com/awyz/final-project-mockup/blob/master/app/public/images/Order_Page.png?raw=true)
 
+![Alt text](https://github.com/awyz/test/blob/master/createorder.jpg)
+
 ![](images/bowfolios-cas.png)
 
 # Contact Us
