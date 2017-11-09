@@ -3,7 +3,7 @@
 * [About Munchie Zone](#about-munchiezone)
 * [Installation](#installation)
 * [Development history](#development-history)
-  * [Milestone 1: Mockup development](#milestone-1-mockup-development)
+  * [Milestone 0: Mockup development](#milestone-0-mockup-development)
 * [Contact Us](#contact-us)
 
 
@@ -18,7 +18,7 @@ Munchie Zone does not require any installation processes. It will be a web-based
 # Development History
 
 
-## Milestone 1: Mockup development
+## Milestone 0: Mockup development
 
 This Milestone occurred on November 2, 2017. In it, we created mockups of various pages using Semantic UI, HTML, and CSS. Our mockup was developed using Meteor as well as templates and FlowRouter. The following are screenshots of our mockups: 
 
