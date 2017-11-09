@@ -1,13 +1,19 @@
 # Table of contents
 
 * [About Munchie Zone](#about-munchiezone)
+* [Installation] (#installation)
 * [Development history](#development-history)
   * [Milestone 1: Mockup development](#milestone-1-mockup-development)
+* [Contact us] (#contact)
 
 
 # About Munchie Zone
 
 Munchie Zone is a meteor application which allows users to combine food orders in order to avoid expensive delivery charges. Users are also able to set dietary restrictions while searching through orders, and can also be pinged on their phone whenever a new order with their favorite food or restaurant is involved. Anyone with a University of Hawaii account is able to access this product after logging in. 
+
+# Installation
+
+Munchie Zone does not require any installation processes. It will be a web-based program with the ability to send text notifications to the user's phone.
 
 # Development History
 
@@ -28,3 +34,6 @@ This Milestone occurred on November 2, 2017. In it, we created mockups of variou
 
 ![](images/bowfolios-cas.png)
 
+# Contact us
+
+The developers of Munchie Zone can be contacted via DM on Slack.
