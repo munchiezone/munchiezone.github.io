@@ -195,20 +195,20 @@ First the user is brought to the landing page, which introduces the website and 
 [Landing Page](http://munchiezone.meteorapp.com/)
 ![Alt text](https://github.com/munchiezone/munchiezone.github.io/blob/master/images/landing.png?raw=true)
 
-Upon logging in, the user is brought to the home page. Here, the user can view orders they are currently participating in as well as orders from their favorited restaurants. In order to view this page and the other pages, one must log in via the landing page and change “<user>” in the link to their own username.
-[Home Page](http://munchiezone.meteorapp.com/<user>/home)
+Upon logging in, the user is brought to the home page. Here, the user can view orders they are currently participating in as well as orders from their favorited restaurants. In order to view this page and the other pages, one must log in via the landing page and change “user” in the link to their own username.
+[Home Page](http://munchiezone.meteorapp.com/user/home)
 ![Alt text](https://github.com/munchiezone/munchiezone.github.io/blob/master/images/home.png?raw=true)
 
 The user is able to edit his/her profile in the profile page. This is where the user can put in information such as favorite restaurants, dietary information, contact information, and etc.
-[Profile Page](http://munchiezone.meteorapp.com/<user>/profile)
+[Profile Page](http://munchiezone.meteorapp.com/user/profile)
 ![Alt text](https://github.com/munchiezone/munchiezone.github.io/blob/master/images/profile.png?raw=true)
 
 The order page contains current pending food requests, in which the user can join in on the order. Orders that contain the user’s favorite restaurants are at the top of the page.
-[View Order Page](http://munchiezone.meteorapp.com/<user>/filter)
+[View Order Page](http://munchiezone.meteorapp.com/user/filter)
 ![Alt text](https://github.com/munchiezone/munchiezone.github.io/blob/master/images/view_orders.png?raw=true) 
 
 The user can create their own order on the create order page. There are various fields that must be filled out so that orders can be filtered by other users.
-[Create Order Page](http://munchiezone.meteorapp.com/<user>/create)
+[Create Order Page](http://munchiezone.meteorapp.com/user/create)
 ![Alt text](https://github.com/munchiezone/munchiezone.github.io/blob/master/images/create_orders.png?raw=true)
 
 ## Milestone 2
