@@ -143,13 +143,12 @@ This application was built using the Semantic UI CSS framework. Its files can be
 ## Routing
 Munchie Zone uses Flow Router to navigate around the app. The router can be found in imports/startup/client/router.js
 
-<ul>
-    <li> `/` leads the user to the landing page</li>
-    <li> `/home` routes to the home page</li>
-    <li> `/profile` leads the user to the user’s profile page</li>
-    <li> `/filter` routes to the view order page</li>
-    <li> `/create` brings the user to the create order page</li>
-</ul>
+* `/` leads the user to the landing page
+* `/home` routes to the home page
+* `/profile` leads the user to the user’s profile page
+* `/filter` routes to the view order page
+* `/create` brings the user to the create order page
+
 
 
 ## Authentication
