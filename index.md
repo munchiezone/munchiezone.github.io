@@ -3,6 +3,18 @@
 * [About Munchie Zone](#about-munchiezone)
 * [Installation](#installation)
 * [Application design](#application-design)
+  * [Directory structure](#directory-structure)
+  * [Import conventions](#import-conventions)
+  * [Naming conventions](#naming-conventions)
+  * [Data model](#data-model)
+  * [CSS](#css)
+  * [Routing](#routing)
+  * [Authentication](#authentication)
+  * [Authorization](#authorization)
+  * [Configuration](#configuration)
+  * [Quality Assurance](#quality-assurance)
+    * [ESLint](#eslint)
+    * [Data model unit tests](#data-model-unit-tests)
 * [Development history](#development-history)
   * [Milestone 1](#milestone-1)
   * [Milestone 2](#milestone-2)
@@ -109,12 +121,14 @@ All imports (except the style.css) invoke the index.js file in the specified dir
 
 The following naming conventions are used…
 
-    * Files and directories are named in lower cases and words are separated by hyphens. Ex: home-page.html 
-    * “Global” Javascript variables, like collections are capitalized. Ex. Profiles
-    * Non-Global variables are written in camel-case. Ex. allProfiles
-    * Templates representing pages are capitalized and words are separated by underscores. Ex. Home_Page.
-    * Files for templates are lowercase and words are separated with underscore. Ex. home-page.html, home-page.js
-    * Routes to pages are named the same as their corresponding page. Ex. Home_Page
+<ul>
+    <li> Files and directories are named in lower cases and words are separated by hyphens. Ex: home-page.html </li>
+    <li> “Global” Javascript variables, like collections are capitalized. Ex. Profiles </li>
+    <li>Non-Global variables are written in camel-case. Ex. allProfiles</li>
+    <li> Templates representing pages are capitalized and words are separated by underscores. Ex. Home_Page.</li>
+    <li> Files for templates are lowercase and words are separated with underscore. Ex. home-page.html, home-page.js </li>
+    <li>Routes to pages are named the same as their corresponding page. Ex. Home_Page</li>
+</ul>
 
 
 ## Data model
@@ -130,11 +144,11 @@ This application was built using the Semantic UI CSS framework. Its files can be
 Munchie Zone uses Flow Router to navigate around the app. The router can be found in imports/startup/client/router.js
 
 <ul>
-    <li>```/``` leads the user to the landing page</li>
-    <li>```/home``` routes to the home page</li>
-    <li>```/profile``` leads the user to the user’s profile page</li>
-    <li>```/filter``` routes to the view order page</li>
-    <li>```/create``` brings the user to the create order page</li>
+    <li> `/` leads the user to the landing page</li>
+    <li> `/home` routes to the home page</li>
+    <li> `/profile` leads the user to the user’s profile page</li>
+    <li> `/filter` routes to the view order page</li>
+    <li> `/create` brings the user to the create order page</li>
 </ul>
 
 
@@ -145,7 +159,7 @@ Users have their accounts authenticated through the University of Hawaii CAS tes
 ## Authorization
 
 The landing page can be accessed by anyone. However, pages that require authorization are the profile, order requests, create order, and home pages. The user must be logged in through the UH test CAS server to be authorized.
-Template based authorization is used to prevent unauthorized users from accessing private pages; an If_Authorized template is used, which is defined in If_Authorized.html and If_Authorized.js 
+Template based authorization is used to prevent unauthorized users from accessing private pages; and If_Authorized template is used, which is defined in If_Authorized.html and If_Authorized.js 
 
 ## Configuration
 
@@ -160,6 +174,7 @@ Munchie Zone includes a .eslintrc file to define the coding style. It can be inv
 ```
 meteor npm run lint
 ```
+
 This command outputs the results onto the console.
 
 ### Data model unit tests
@@ -174,26 +189,26 @@ meteor npm run test
 
 ## Milestone 1
 
-This milestone started on November 7, 2017 and was completed on November 22, 2017. In it, mockups of the landing, home, profile, view order, and create order pages were created using Semantic UI, HTML, and CSS. Meteor, templates, and FlowRouter were used as well. The project’s completed issues can be viewed [here](https://github.com/munchiezone/munchiezone/projects/1). 
+This milestone started on November 7, 2017 and was completed on November 22, 2017. In it, mockups of the landing, home, profile, view order, and create order pages were created using Semantic UI, HTML, and CSS. Meteor, templates, and FlowRouter were used as well. Issue Driven Project Management practices were also followed.  The project’s completed issues can be viewed [here](https://github.com/munchiezone/munchiezone/projects/1). 
 
 First the user is brought to the landing page, which introduces the website and prompts the user to log in at the bottom of the page. 
 [Landing Page](http://munchiezone.meteorapp.com/)
 ![Alt text](https://github.com/munchiezone/munchiezone.github.io/blob/master/images/landing.png?raw=true)
 
-Upon logging in, the user is brought to the home page. Here, the user can view orders they are currently participating in as well as orders from their favorited restaurants.
-[Home Page](http://munchiezone.meteorapp.com/awy/home)
+Upon logging in, the user is brought to the home page. Here, the user can view orders they are currently participating in as well as orders from their favorited restaurants. In order to view this page and the other pages, one must log in via the landing page and change “<user>” in the link to their own username.
+[Home Page](http://munchiezone.meteorapp.com/<user>/home)
 ![Alt text](https://github.com/munchiezone/munchiezone.github.io/blob/master/images/home.png?raw=true)
 
 The user is able to edit his/her profile in the profile page. This is where the user can put in information such as favorite restaurants, dietary information, contact information, and etc.
-[Profile Page](http://munchiezone.meteorapp.com/awy/profile)
+[Profile Page](http://munchiezone.meteorapp.com/<user>/profile)
 ![Alt text](https://github.com/munchiezone/munchiezone.github.io/blob/master/images/profile.png?raw=true)
 
 The order page contains current pending food requests, in which the user can join in on the order. Orders that contain the user’s favorite restaurants are at the top of the page.
-[View Order Page](http://munchiezone.meteorapp.com/awy/filter)
+[View Order Page](http://munchiezone.meteorapp.com/<user>/filter)
 ![Alt text](https://github.com/munchiezone/munchiezone.github.io/blob/master/images/view_orders.png?raw=true) 
 
 The user can create their own order on the create order page. There are various fields that must be filled out so that orders can be filtered by other users.
-[Create Order Page](http://munchiezone.meteorapp.com/awy/create)
+[Create Order Page](http://munchiezone.meteorapp.com/<user>/create)
 ![Alt text](https://github.com/munchiezone/munchiezone.github.io/blob/master/images/create_orders.png?raw=true)
 
 ## Milestone 2
