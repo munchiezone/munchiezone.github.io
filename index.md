@@ -139,6 +139,7 @@ Munchie Zone uses Flow Router to navigate around the app. The router can be foun
 </ul>
 
 ## Authentication
+
 Users have their accounts authenticated through the University of Hawaii CAS test server. Thus, any user with a University of Hawaii account can access and use Munchie Zone.
 
 ## Authorization
@@ -147,11 +148,13 @@ The landing page can be accessed by anyone. However, pages that require authoriz
 Template based authorization is used to prevent unauthorized users from accessing private pages; an If_Authorized template is used, which is defined in If_Authorized.html and If_Authorized.js 
 
 ## Configuration
+
 The config directory contains settings files, namely config/settings.development.json. The directory also contains the .gitignore file, which makes sure that the settings.production file is not uploaded in the GitHub repository. Upon startup if the database is empty, Munchie Zone will load settings.development.json.
 
 ## Quality Assurance
 
 ### ESLint
+
 Munchie Zone includes a .eslintrc file to define the coding style. It can be invoked with the command:
 ```
 meteor npm run lint
@@ -159,6 +162,7 @@ meteor npm run lint
 This command outputs the results onto the console.
 
 ### Data model unit tests
+
 Invoking the script named ‘test’ runs the unit test on the data model. This is defined in the package.json file.
 ```
 meteor npm run test
@@ -191,6 +195,7 @@ The user can create their own order on the create order page. There are various 
 ![Alt text](https://github.com/munchiezone/munchiezone.github.io/blob/master/images/create_orders.png?raw=true)
 
 ## Milestone 2
+
 Milestone 2 started on November 23, 2017 and will be completed on December 9, 2017. The goal of this milestone is to improve the quality and functionality of the site and also to implement backend processes such as favoriting orders and sending phone notifications. The list of issues for milestone 2 can be viewed [here](https://github.com/munchiezone/munchiezone/projects/4).
 
 # Contact Us
