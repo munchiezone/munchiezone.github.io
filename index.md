@@ -109,14 +109,13 @@ All imports (except the style.css) invoke the index.js file in the specified dir
 
 The following naming conventions are used…
 
-<ul>
-    <li> Files and directories are named in lower cases and words are separated by hyphens. Ex: home-page.html 
-    <li> “Global” Javascript variables, like collections are capitalized. Ex. Profiles
-    <li> Non-Global variables are written in camel-case. Ex. allProfiles
-    <li> Templates representing pages are capitalized and words are separated by underscores. Ex. Home_Page.
-    <li> Files for templates are lowercase and words are separated with underscore. Ex. home-page.html, home-page.js
-    <li> Routes to pages are named the same as their corresponding page. Ex. Home_Page
-</ul>
+    * Files and directories are named in lower cases and words are separated by hyphens. Ex: home-page.html 
+    * “Global” Javascript variables, like collections are capitalized. Ex. Profiles
+    * Non-Global variables are written in camel-case. Ex. allProfiles
+    * Templates representing pages are capitalized and words are separated by underscores. Ex. Home_Page.
+    * Files for templates are lowercase and words are separated with underscore. Ex. home-page.html, home-page.js
+    * Routes to pages are named the same as their corresponding page. Ex. Home_Page
+
 
 ## Data model
 
@@ -138,6 +137,7 @@ Munchie Zone uses Flow Router to navigate around the app. The router can be foun
     <li>```/create``` brings the user to the create order page</li>
 </ul>
 
+
 ## Authentication
 
 Users have their accounts authenticated through the University of Hawaii CAS test server. Thus, any user with a University of Hawaii account can access and use Munchie Zone.
@@ -156,6 +156,7 @@ The config directory contains settings files, namely config/settings.development
 ### ESLint
 
 Munchie Zone includes a .eslintrc file to define the coding style. It can be invoked with the command:
+
 ```
 meteor npm run lint
 ```
@@ -164,6 +165,7 @@ This command outputs the results onto the console.
 ### Data model unit tests
 
 Invoking the script named ‘test’ runs the unit test on the data model. This is defined in the package.json file.
+
 ```
 meteor npm run test
 ```
