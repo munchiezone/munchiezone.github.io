@@ -45,7 +45,7 @@ The order page contains current pending food requests, in which the user can joi
 ![Alt text](https://github.com/munchiezone/munchiezone.github.io/blob/master/images/final-current-order.png?raw=true) 
 
 After clicking an order’s “join” button, the user is directed to the join orders page. Here, they may add items they would like to order alongside other people’s items.
-[Join Order Page](http://munchiezone.meteorapp.com/<user>/edit)![Alt text](INSERT LINK HERE)
+[Join Order Page](http://munchiezone.meteorapp.com/<user>/edit)![Alt text](https://github.com/munchiezone/munchiezone.github.io/blob/master/images/final-edit-order.png?raw=true)
 
 If none of the preexisting orders appeal to the user, they can create their own order via the create order page. There are various fields that must be filled out so that orders can be filtered by other users and users are able to choose an image to accompany their food order in order to draw other users in.
 [Create Order Page](http://munchiezone.meteorapp.com/<user>/create)
