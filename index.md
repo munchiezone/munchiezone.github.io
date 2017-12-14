@@ -78,6 +78,7 @@ To Improve
     <li>Refresh the page after submitting orders/updating the profile</li>
     <li>On the home page, there should be more contrast between orders made by the user and favorited orders</li>
 </ul>
+
 ## L. B.
 Good
 <ul>
@@ -99,6 +100,7 @@ To Improve
 <ul>
     <li> Submit button for join orders doesn’t work </li>
 </ul>
+
 ## T. L.
 Good
 <ul>
