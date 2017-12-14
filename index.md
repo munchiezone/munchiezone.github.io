@@ -2,7 +2,7 @@
 
 * [About Munchie Zone](#about-munchiezone)
 * [User Guide](#user-guide)
-* [Community Feedback](#feedback)
+* [Community Feedback](#community-feedback)
 * [Installation](#installation)
 * [Application design](#application-design)
   * [Directory structure](#directory-structure)
@@ -53,38 +53,45 @@ If none of the preexisting orders appeal to the user, they can create their own 
 
 
 # Community Feedback
+
 ## Z. Z.
+
 Good
 <ul>
-    <li> The site looked very streamlined</il> 
-    <li> The site was easy to follow and navigate</il>
-    <li> The aesthetics were designed well</il>
+    <li> The site looked very streamlined</li> 
+    <li> The site was easy to follow and navigate</li>
+    <li> The aesthetics were designed well</li>
 </ul>
+
 To Improve
 <ul>
-    <li> Needs more restaurant choices</il>
-    <li> Some of the buttons do not work</il>
-    <li> People should not be able to upload their own images</il>
+    <li> Needs more restaurant choices</li>
+    <li> Some of the buttons do not work</li>
+    <li> People should not be able to upload their own images</li>
 </ul>
 
 ## W. M.
+
 Good
 <ul>
-    <li>Looks good and nice</il>
+    <li>Looks good and nice</li>
 </ul>
+
 To Improve
 <ul>
-    <li>Make notification that profile/order is updated more noticable</il>
+    <li>Make notification that profile/order is updated more noticable</li>
     <li>Refresh the page after submitting orders/updating the profile</li>
     <li>On the home page, there should be more contrast between orders made by the user and favorited orders</li>
 </ul>
 
 ## L. B.
+
 Good
 <ul>
     <li>Good design</li>
     <li>Simple to use</li>
 </ul>
+
 To Improve
 <ul>
     <li>Should have some sort of confirmation via email about orders</li>
@@ -92,6 +99,7 @@ To Improve
 
 
 ## T. K.
+
 Good
 <ul>
     <li>Looks nice</li>
@@ -102,12 +110,14 @@ To Improve
 </ul>
 
 ## T. L.
+
 Good
 <ul>
     <li> Site design is appealing </li>
     <li> Likes the background </li>
     <li> Layout is user friendly </li>
 </ul>
+
 To Improve
 <ul>
     <li> Some buttons don’t work </li>
