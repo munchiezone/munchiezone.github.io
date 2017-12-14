@@ -40,7 +40,7 @@ At the “Your Profile” tab, the user is able to edit their profile in the pro
 [Profile Page](http://munchiezone.meteorapp.com/user/profile)
 ![Alt text](https://github.com/munchiezone/munchiezone.github.io/blob/master/images/final-profile.png?raw=true)
 
-The order page contains current pending food requests, in which the user can join in on the order. 
+The order page contains current pending food requests, in which the user can join in on the order. Users can also filter orders by the restaurant. 
 [View Order Page](http://munchiezone.meteorapp.com/<user>/filter)
 ![Alt text](https://github.com/munchiezone/munchiezone.github.io/blob/master/images/final-current-order.png?raw=true) 
 
