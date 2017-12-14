@@ -25,7 +25,7 @@
 
 # About Munchie Zone
 
-[Munchie Zone](https://github.com/munchiezone) is a [meteor application hosted on Galaxy](http://munchiezone.meteorapp.com/) which allows users to combine food orders in order to avoid expensive delivery charges. Users are also able to set dietary restrictions while searching through orders, and can also be pinged on their phone whenever a new order with their favorite food or restaurant is involved. Anyone with a University of Hawaii account is able to access this product after logging in. The application can be viewed [here](http://munchiezone.meteorapp.com/). 
+[Munchie Zone](https://github.com/munchiezone) is a [meteor application hosted on Galaxy](http://munchiezone.meteorapp.com/) which allows users to combine food orders in order to avoid expensive delivery charges. Users are also able to set their favorite restaurants and sort current orders by restaurants in order to find the perfect meal. Anyone with a University of Hawaii account is able to access this product after logging in. The application can be viewed [here](http://munchiezone.meteorapp.com/). 
 
 # User Guide
 First the user is brought to the landing page, which introduces the website and prompts the user to log in at the bottom of the page. 
@@ -306,7 +306,7 @@ This milestone started on November 7, 2017 and was completed on November 22, 201
 
 ## Milestone 2
 
-Milestone 2 started on November 23, 2017 and was completed on December 13, 2017. The goal of this milestone was to improve the quality and functionality of the site and also to implement backend processes such as creating and editing orders. Both Meteor and MongoDB were used to create and edit the various collections on the site, i.e. the restaurant, profile, and order collections. These collections and other backend processes were then connected to the user interface in order to improve functionality. The list of issues for milestone 2 can be viewed [here](https://github.com/munchiezone/munchiezone/projects/4).
+Milestone 2 started on November 23, 2017 and was completed on December 13, 2017. The goal of this milestone was to improve the quality and functionality of the site and also to implement backend processes such as creating and editing orders as well as filtering out orders by the restaurant. Both Meteor and MongoDB were used to create and edit the various collections on the site, i.e. the restaurant, profile, and order collections. These collections and other backend processes were then connected to the user interface in order to improve functionality. The list of issues for milestone 2 can be viewed [here](https://github.com/munchiezone/munchiezone/projects/4).
 
 # Contact Us
 
