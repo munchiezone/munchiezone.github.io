@@ -32,12 +32,12 @@ First the user is brought to the landing page, which introduces the website and 
 [Landing Page](http://munchiezone.meteorapp.com/)
 ![Alt text](https://github.com/munchiezone/munchiezone.github.io/blob/master/images/final_landing.png?raw=true)
 
-Upon logging in, the user is brought to the home page. Here, the user can view orders they have created as well as orders from their favorite restaurants. In order to view this page and the others from the following link, one must log in via the landing page and change “<user>” in the link to their own username.
-[Home Page](http://munchiezone.meteorapp.com/<user>/home)
+Upon logging in, the user is brought to the home page. Here, the user can view orders they have created as well as orders from their favorite restaurants. In order to view this page and the others from the following link, one must log in via the landing page and change “user” in the link to their own username.
+[Home Page](http://munchiezone.meteorapp.com/user/home).
 ![Alt text](https://github.com/munchiezone/munchiezone.github.io/blob/master/images/final-home.png?raw=true)
 
 At the “Your Profile” tab, the user is able to edit their profile in the profile page. This is where the user can input information such as favorite restaurants, dietary information, and contact information.
-[Profile Page](http://munchiezone.meteorapp.com/<user>/profile)
+[Profile Page](http://munchiezone.meteorapp.com/user/profile)
 ![Alt text](https://github.com/munchiezone/munchiezone.github.io/blob/master/images/final-profile.png?raw=true)
 
 The order page contains current pending food requests, in which the user can join in on the order. 
